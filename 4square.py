@@ -21,7 +21,7 @@ def Four_Squares(N):
             for k in range(0,len(M[N-i])):
                X = [M[i][j][0], M[i][j][1],
                     M[N-i][k][0], M[N-i][k][1]]
-               if X[1] <= X[2];
+               if X[1] <= X[2]:
                   P.append(X)
  
       return P
