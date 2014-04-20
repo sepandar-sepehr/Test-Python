@@ -1,8 +1,7 @@
 def Four_Squares(N):
- 
       M = [[] for T in range(N+1)]
          ## Element T of M will be populated with all pairs [a,b] such that a, b < sqrt(N) and a*a + b*b = T
- 
+         
       for a in range(0,int(sqrt(N//2)) + 1):
          for b in range(a,int(sqrt(N)) + 1):
             T = a*a + b*b
